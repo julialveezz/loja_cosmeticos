@@ -1,0 +1,26 @@
+create table if not exists Funcionarios(id bigint primary key auto_increment not null,
+                                    nome varchar(45) not null,
+                                    cargo varchar(45) not null,
+                                    idade int not null,
+                                    cpf varchar(45) not null,
+                                    rg varchar(45) not null,
+                                    telefone varchar(45) not null,
+                                    email varchar(255) not null);
+
+INSERT INTO Funcionarios (nome, cargo, idade, cpf, rg, telefone, email)
+VALUES
+('Rebeca Silva Melo', 'Gerente de Loja', 38, '611.080.208-52', '50.490.191-6', '(45) 9313-8602', 'rebeca.silva42@gmail.com'),
+('Thaís Martins Gomes', 'Caixa', 27, '460.531.895-02', '11.977.210-3', '(45) 6457-7919', 'thaisgomes678@gmail.com'),
+('Emilly Silva Dias', 'Caixa', 24, '296.817.794-01', '17.784.788-8', '(45) 8731-6012', 'emilly.dias01@gmail.com'),
+('Victor Fernandes Pereira', 'Vendedor', 26, '880.459.485-31', '21.289.466-3', '(45) 5725-2585', 'victor2fernandes1@gmail.com'),
+('Pedro Ferreira Costa', 'Vendedor', 22, '498.255.318-19', '25.321.059-8', '(45) 4583-3306', 'costa_pedro@gmail.com'),
+('Giovana Carvalho Goncalves', 'Vendedora', 34, '145.046.301-09', '27.755.338-6', '(45) 2337-4254', 'giovana.91carvalho@gmail.com'),
+('Camila Carvalho Cunha', 'Estoquista', 41, '925.968.949-04', '26.092.467-2', '(45) 3087-4128', 'camilacunha11@gmail.com'),
+('Raissa Souza', 'Estoquista', 48, '183.213.060-63', '32.243.156-6', '(45) 2400-6482', 'souza_raissaa@gmail.com'),
+('Anna Costa Ribeiro', 'Repositora', 30, '894.927.884-70', '17.849.892-0', '(45) 2712-7389', 'ribeiro_anna2025@gmail.com'),
+('Danilo Barbosa Castro', 'Repositor', 35, '761.968.549-92', '22.893.303-1', '(45) 4464-8895', 'danilocastr0_22@gmail.com'),
+('Júlio Oliveira Pereira', 'Administrador', 29, '788.344.429-89', '10.850.977-1', '(45) 5323-4227', 'oliveiraa.juliop@gmail.com'),
+('Beatriz Barros Alves', 'Auxiliar Administrativo', 24, '659.242.490-77', '47.863.847-4', '(45) 8570-7226', 'bea_trizalves@gmail.com'),
+('Murilo Ribeiro Araujo', 'Estagiário', 17, '558.119.641-96', '33.329.763-5', '(45) 6445-4703', 'araujo.murilo8@gmail.com'),
+('Thiago Cardoso Pereira', 'Estagiário', 16, '818.356.214-06', '50.776.858-9', '(45) 7440-4521', 'thiago_cardosos_pereira2022@gmail.com'),
+('Tânia Lima', 'Zeladora', 58, '303.405.548-00', '48.599.868-3', '(45) 5081-9850', 'tanialima_2019@gmail.com');
